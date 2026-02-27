@@ -17,7 +17,7 @@ Pastikan sudah terinstal di sistem kamu:
 ### 1. Clone Project
 
 ```bash
-git clone https://github.com/alberdjuniawan/setup-mssql-sql.git
+git clone https://github.com/alberdjuniawan/setup-mssql-bdp.git
 ```
 
 
