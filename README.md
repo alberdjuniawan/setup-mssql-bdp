@@ -18,6 +18,7 @@ Pastikan sudah terinstal di sistem kamu:
 
 ```bash
 git clone https://github.com/alberdjuniawan/setup-mssql-bdp.git
+cd setup-mssql-bdp
 ```
 
 
@@ -78,8 +79,10 @@ Pastikan container `mssql` berstatus **Up**.
    | Auth Type     | `SQL Login`               |
    | User Name     | `sa`                      |
    | Password      | *(password dari file `.env`)* |
+   
+   Centang `Trust server certificate`
 
-5. Tekan **Enter**, simpan nama profile (opsional), dan mulai query!
+6. Tekan **Enter**, simpan nama profile (opsional), dan mulai query!
 
 ---
 
