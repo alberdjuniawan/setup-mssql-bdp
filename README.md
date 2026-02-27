@@ -62,6 +62,9 @@ docker ps
 ```
 
 Pastikan container `mssql` berstatus **Up**.
+> **Catatan:** pastikan Docker sudah aktif sebelum menjalankan perintah ini.
+> - Windows / Mac: buka Docker Desktop dan pastikan statusnya “Running”.
+> - Linux: jalankan service Docker dengan `sudo systemctl start docker` dan cek statusnya dengan `sudo systemctl status docker`.
 
 ---
 
