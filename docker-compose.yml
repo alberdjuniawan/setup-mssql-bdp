@@ -1,0 +1,10 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/azure-sql-edge
+    container_name: ${CONTAINER_NAME}
+    environment:
+      ACCEPT_EULA: "1"
+      MSSQL_SA_PASSWORD: ${SA_PASSWORD}
+    ports:
+      - "${HOST_PORT}:1433"
+    restart: unless-stopped
