@@ -69,12 +69,12 @@ Pastikan container `mssql` berstatus **Up**.
 
 1. Buka VS Code
 2. Tekan `Ctrl+Shift+P` (atau `Cmd+Shift+P` di Mac)
-3. Ketik dan pilih **MS SQL: Connect**
+3. Ketik dan pilih **MS SQL: Connect** atau **MS SQL: Add Connection** jika belum memiliki connection sebelumnya
 4. Isi detail koneksi berikut:
 
    | Field         | Value                     |
    |---------------|---------------------------|
-   | Server Name   | `localhost,1433`          |
+   | Server Name   | `localhost,1433`*_(port di .env)_* |
    | Database      | `master` *(bisa dikosongkan)* |
    | Auth Type     | `SQL Login`               |
    | User Name     | `sa`                      |
@@ -86,7 +86,7 @@ Pastikan container `mssql` berstatus **Up**.
 
 ---
 
-## 🛠️ Manajemen Container
+## Manajemen Container
 
 | Perintah | Fungsi |
 |---|---|
