@@ -17,11 +17,9 @@ Pastikan sudah terinstal di sistem kamu:
 ### 1. Clone Project
 
 ```bash
-git clone https://github.com/username/nama-project-sql.git
-cd nama-project-sql
+git clone https://github.com/alberdjuniawan/setup-mssql-sql.git
 ```
 
-> Lewati langkah ini jika sudah berada di dalam folder project.
 
 ---
 
